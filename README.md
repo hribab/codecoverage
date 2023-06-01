@@ -1,2 +1,1 @@
-# codecoverage
-Codecoverage
+This repository showcases an AI autonomous bot that generates unit tests and achieves a code coverage of 80%. The bot demonstrates the potential of leveraging artificial intelligence in automating the process of test case generation and ensuring effective code coverage.
