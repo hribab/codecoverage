@@ -1,5 +1,5 @@
 // Import the function to be tested
-const findKthPositive = require('sampletestfiles/js/1539-kth-missing-positive-number.js');
+const findKthPositive = require('../js/1539-kth-missing-positive-number.js');
 
 // Start writing test cases
 describe('findKthPositive function testing', () => {

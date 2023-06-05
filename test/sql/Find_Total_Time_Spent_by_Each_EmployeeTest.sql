@@ -14,7 +14,7 @@ VALUES
 (1, '2022-02-01', 220, 400),
 (2, '2022-02-01', 300, 600);
 
-SELECT * FROM sampletestfiles/sql/Find_Total_Time_Spent_by_Each_Employee.sql;
+SELECT * FROM ../sql/Find_Total_Time_Spent_by_Each_Employee.sql;
 
 -- Unit Test 2: Test if the function handles multiple days correctly
 /*
@@ -38,7 +38,7 @@ VALUES
 (2, '2022-02-01', 300, 600),
 (2, '2022-02-02', 350, 750);
 
-SELECT * FROM sampletestfiles/sql/Find_Total_Time_Spent_by_Each_Employee.sql;
+SELECT * FROM ../sql/Find_Total_Time_Spent_by_Each_Employee.sql;
 
 -- Unit Test 3: Test if the function handles the minimum and maximum in_time and out_time correctly
 /*
@@ -53,7 +53,7 @@ INSERT INTO Employees (emp_id, event_day, in_time, out_time)
 VALUES 
 (1, '2022-02-01', 1, 1440);
 
-SELECT * FROM sampletestfiles/sql/Find_Total_Time_Spent_by_Each_Employee.sql;
+SELECT * FROM ../sql/Find_Total_Time_Spent_by_Each_Employee.sql;
 
 -- Unit Test 4: Test if the function handles an employee entering and leaving multiple times on a single day
 /*
@@ -72,7 +72,7 @@ VALUES
 (1, '2022-02-01', 300, 400),
 (1, '2022-02-01', 500, 600);
 
-SELECT * FROM sampletestfiles/sql/Find_Total_Time_Spent_by_Each_Employee.sql;
+SELECT * FROM ../sql/Find_Total_Time_Spent_by_Each_Employee.sql;
 
 -- Unit Test 5: Test if the function returns an empty result for an empty Employees table
 /*
@@ -81,4 +81,4 @@ Output:
 */
 DELETE FROM Employees;
 
-SELECT * FROM sampletestfiles/sql/Find_Total_Time_Spent_by_Each_Employee.sql;
+SELECT * FROM ../sql/Find_Total_Time_Spent_by_Each_Employee.sql;

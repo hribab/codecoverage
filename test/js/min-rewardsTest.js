@@ -1,5 +1,5 @@
 // Import the minRewards function from the original JavaScript file
-const { minRewards } = require("./sampletestfiles/js/min-rewards.js");
+const { minRewards } = require("../js/min-rewards.js");
 
 // Test suite for the minRewards function
 describe("minRewards", () => {

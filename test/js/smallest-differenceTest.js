@@ -1,4 +1,4 @@
-const { smallestDifference } = require('./sampletestfiles/js/smallest-difference');
+const { smallestDifference } = require('../js/smallest-difference');
 
 describe('smallestDifference', () => {
 

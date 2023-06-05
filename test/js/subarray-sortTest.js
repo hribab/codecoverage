@@ -1,4 +1,4 @@
-const { subarraySort, isOutOfOrder } = require("./sampletestfiles/js/subarray-sort.js");
+const { subarraySort, isOutOfOrder } = require("../js/subarray-sort.js");
 
 describe("subarraySort", () => {
   test("1. Test case with unsorted array", () => {

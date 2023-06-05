@@ -1,5 +1,5 @@
 const assert = require('assert');
-const mergeOverlappingIntervals = require('sampletestfiles/js/merge-overlapping-intervals.js');
+const mergeOverlappingIntervals = require('../js/merge-overlapping-intervals.js');
 
 describe('mergeOverlappingIntervals', () => {
   // Test case 1

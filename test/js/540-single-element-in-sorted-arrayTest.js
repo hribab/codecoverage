@@ -1,5 +1,5 @@
 const assert = require("assert");
-const singleNonDuplicate = require("./sampletestfiles/js/540-single-element-in-sorted-array.js");
+const singleNonDuplicate = require("../js/540-single-element-in-sorted-array.js");
 
 describe("singleNonDuplicate", function () {
   // Test case 1: Unique element at the beginning

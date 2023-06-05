@@ -1,4 +1,4 @@
-const { tandemBicycle, sumSpeeds } = require('./sampletestfiles/js/tandem-bicycle.js');
+const { tandemBicycle, sumSpeeds } = require('../js/tandem-bicycle.js');
 const { assert } = require('chai');
 
 describe('tandemBicycle()', function() {

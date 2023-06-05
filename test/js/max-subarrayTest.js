@@ -1,5 +1,5 @@
 // Import the maxSubArray function
-const { maxSubArray } = require("./sampletestfiles/js/max-subarray.js");
+const { maxSubArray } = require("../js/max-subarray.js");
 const assert = require("assert");
 
 describe("maxSubArray", () => {

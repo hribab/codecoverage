@@ -1,4 +1,4 @@
-const maxIceCream = require('sampletestfiles/js/max-number-of-ice-creams.js');
+const maxIceCream = require('../js/max-number-of-ice-creams.js');
 const assert = require('assert');
 
 describe('maxIceCream', () => {

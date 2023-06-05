@@ -1,5 +1,5 @@
 // Import the function to be tested
-const subarraysDivByK = require("sampletestfiles/js/974-subarray-sums-divisible-by-k.js");
+const subarraysDivByK = require("../js/974-subarray-sums-divisible-by-k.js");
 
 // Test Suite
 describe("subarraysDivByK", () => {

@@ -1,6 +1,6 @@
 const { describe, it } = require('mocha');
 const { expect } = require('chai');
-const minimumWaitingTime = require('sampletestfiles/js/minimum-waiting-time');
+const minimumWaitingTime = require('../js/minimum-waiting-time');
 
 describe('minimumWaitingTime()', () => {
   // Test case 1: Normal input

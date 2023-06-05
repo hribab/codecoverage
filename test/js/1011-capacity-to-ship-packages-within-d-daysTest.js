@@ -1,4 +1,4 @@
-const { shipWithinDays, canShipInDays } = require('sampletestfiles/js/1011-capacity-to-ship-packages-within-d-days.js');
+const { shipWithinDays, canShipInDays } = require('../js/1011-capacity-to-ship-packages-within-d-days.js');
 const assert = require('assert');
 
 describe('shipWithinDays', () => {

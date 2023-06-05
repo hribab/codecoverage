@@ -1,5 +1,5 @@
 const assert = require("assert");
-const nonConstructibleChange = require("sampletestfiles/js/non-constructible-change.js");
+const nonConstructibleChange = require("../js/non-constructible-change.js");
 
 describe("nonConstructibleChange", () => {
   // Test case 1: Empty array

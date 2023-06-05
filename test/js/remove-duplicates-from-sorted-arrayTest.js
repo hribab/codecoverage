@@ -1,5 +1,5 @@
 // Import the removeDuplicates function from the code file
-const removeDuplicates = require('sampletestfiles/js/remove-duplicates-from-sorted-array.js');
+const removeDuplicates = require('../js/remove-duplicates-from-sorted-array.js');
 
 // Test cases for removeDuplicates function
 describe('removeDuplicates', () => {

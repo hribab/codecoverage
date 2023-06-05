@@ -1,5 +1,5 @@
 // Import the firstDuplicateValue function for testing
-const firstDuplicateValue = require("sampletestfiles/js/first-duplicate-value.js");
+const firstDuplicateValue = require("../js/first-duplicate-value.js");
 
 // Test cases for the firstDuplicateValue function
 describe("firstDuplicateValue", () => {

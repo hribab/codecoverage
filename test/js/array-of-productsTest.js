@@ -1,5 +1,5 @@
 const assert = require('assert');
-const arrayOfProducts = require('./sampletestfiles/js/array-of-products.js');
+const arrayOfProducts = require('../js/array-of-products.js');
 
 describe('arrayOfProducts', () => {
   // Test case 1: Check if function returns an array

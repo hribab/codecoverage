@@ -1,4 +1,4 @@
-const zeroSumSubarray = require("sampletestfiles/js/zero-subarray-sum.js");
+const zeroSumSubarray = require("../js/zero-subarray-sum.js");
 const assert = require("assert");
 
 describe("zeroSumSubarray", function() {

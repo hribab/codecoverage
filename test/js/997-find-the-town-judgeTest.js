@@ -1,5 +1,5 @@
 // Import the findJudge function for testing
-const findJudge = require('sampletestfiles/js/997-find-the-town-judge.js');
+const findJudge = require('../js/997-find-the-town-judge.js');
 
 // Test cases
 describe('findJudge', () => {

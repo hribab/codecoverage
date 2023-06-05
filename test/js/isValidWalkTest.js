@@ -1,5 +1,5 @@
 const assert = require('assert');
-const isValidWalk = require('sampletestfiles/js/isValidWalk.js');
+const isValidWalk = require('../js/isValidWalk.js');
 
 describe('isValidWalk()', function() {
   // Test case 1: Check if function returns false for walk shorter than 10

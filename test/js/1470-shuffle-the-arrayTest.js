@@ -1,5 +1,5 @@
 const assert = require("assert");
-const { shuffle } = require("sampletestfiles/js/1470-shuffle-the-array.js");
+const { shuffle } = require("../js/1470-shuffle-the-array.js");
 
 describe("Test shuffle function", () => {
   // Test Case 1: Correct shuffling of an input with different numbers

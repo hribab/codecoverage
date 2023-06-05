@@ -2,7 +2,7 @@
 const assert = require("assert");
 
 // Import the function for testing
-const minimumAverageDifference = require("./sampletestfiles/js/minimum-average-difference.js");
+const minimumAverageDifference = require("../js/minimum-average-difference.js");
 
 // Test cases
 describe("minimumAverageDifference", () => {

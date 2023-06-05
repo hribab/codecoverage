@@ -1,5 +1,5 @@
 // Import the function to test
-const findUniq = require("./sampletestfiles/js/find-the-unique-number.js");
+const findUniq = require("../js/find-the-unique-number.js");
 
 // Test cases for the `findUniq` function
 describe("findUniq()", () => {

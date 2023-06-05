@@ -1,4 +1,4 @@
-const checkPermutation = require("sampletestfiles/js/check-permutation.js");
+const checkPermutation = require("../js/check-permutation.js");
 const assert = require("assert");
 
 describe("checkPermutation", function() {
